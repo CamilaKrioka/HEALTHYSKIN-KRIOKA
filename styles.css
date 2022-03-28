@@ -35,6 +35,8 @@ body {
 .header-nav-list{
   display: flex;
   list-style: none;
+  transition: all 1s linear;
+
 }
 
 .header-nav-list li{
@@ -51,7 +53,8 @@ body {
 .header-nav-list li:hover{
   background-color: #bba3e6;
   border-radius: 5px;
-    
+  box-shadow: 1px 1px 3px 1px grey;
+  transform: translate(5px, 5px);
 
 }
 
@@ -87,7 +90,13 @@ ul li a{
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  
+  transition: all 1s linear;
+
+}
+
+.caja:hover{
+  box-shadow: 1px 1px 3px 1px grey;
+    transform: translate(5px, 5px);
 }
 
 
@@ -230,7 +239,13 @@ aside ul{
     padding: 40px;
     justify-content: center;
     font-weight: bold;
-    
+    transition: all 1s linear;
+ 
+}
+
+.productos-caja-single:hover{
+  box-shadow: 1px 1px 3px 1px grey;
+  transform: translate(5px, 5px);
 }
 
 .productos-caja-single img{
